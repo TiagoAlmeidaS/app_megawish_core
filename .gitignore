@@ -13,3 +13,62 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# .NET build and output directories
+bin/
+obj/
+
+# .NET user-specific files
+*.user
+*.suo
+*.userprefs
+
+# Visual Studio files
+.vscode/
+.vs/
+_resharper/
+.vs2019/
+.vs2017/
+*.sln.ide
+*.suo
+*.user
+*.userosscache
+
+# Rider files
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# NuGet
+packages/
+*.nupkg
+*.paket
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and databases
+*.log
+*.sqlite
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# Visual Studio 2019
+.vs2019/
+
