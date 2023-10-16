@@ -25,11 +25,6 @@ func NewUser(name, email, password string) (*User, error) {
 		return nil, err
 	}
 
-	passwordRes, err := NewPassword(password)
-	if err != nil {
-		return nil, err
-	}
-
 	return &User{
 		Name:     name,
 		Email:    *emailRes,
